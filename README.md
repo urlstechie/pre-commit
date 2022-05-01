@@ -39,17 +39,23 @@ additional specification of `--patterns` is primarily to further filter this lis
 
 ## Run
 
-And then you can run:
-
-```bash
-$ pre-commit run
-```
-
-...or install to your repository:
+And then you can install and run!
 
 ```bash
 $ pre-commit install
 ```
+```bash
+$ git commit -a -s -m 'testing a commit'
+[INFO] Initializing environment for https://github.com/urlstechie/pre-commit.
+[INFO] Initializing environment for https://github.com/urlstechie/pre-commit:urlchecker>=0.0.28.
+[INFO] Installing environment for https://github.com/urlstechie/pre-commit.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+urlchecker...............................................................Passed
+[main 5fb40a8] testing a commit
+ 1 file changed, 1 insertion(+)
+```
+
 
 ## Support
 
