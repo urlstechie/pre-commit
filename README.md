@@ -31,6 +31,7 @@ repos:
         additional_dependencies: [urlchecker>=0.0.28]
 ```
 
+Make sure that you get the latest version from [releases](https://github.com/urlstechie/pre-commit/releases/tag/0.0.11).
 Note that the `--files` argument that previously accepted patterns for urlchecker
 for this module is instead `--patterns`. The reason is because pre-commit is already
 going to provide a list of filenames to check verbatim with the commit, and your
