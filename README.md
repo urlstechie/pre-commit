@@ -12,7 +12,7 @@ your repository:
 ```yaml
 repos:
 -   repo: https://github.com/urlstechie/pre-commit
-    rev: 0.0.1
+    rev: 0.0.11
     hooks:
     -   id: urlchecker-check
         additional_dependencies: [urlchecker>=0.0.28]
@@ -25,7 +25,7 @@ customize the run:
 ```yaml
 repos:
 -   repo: https://github.com/urlstechie/pre-commit
-    rev: 0.0.1
+    rev: 0.0.11
     hooks:
     -   id: urlchecker-check
         additional_dependencies: [urlchecker>=0.0.28]
@@ -44,7 +44,7 @@ And then you can run:
 $ pre-commit run
 ```
 
-or install to your repository:
+...or install to your repository:
 
 ```bash
 $ pre-commit install
