@@ -12,10 +12,10 @@ your repository:
 ```yaml
 repos:
 -   repo: https://github.com/urlstechie/pre-commit
-    rev: 0.0.0
+    rev: 0.0.1
     hooks:
     -   id: urlchecker-check
-        additional_dependencies: [urlchecker>=0.0.29]
+        additional_dependencies: [urlchecker>=0.0.28]
 ```
 
 You can add additional args (those you would add to the check command) to further
@@ -25,10 +25,10 @@ customize the run:
 ```yaml
 repos:
 -   repo: https://github.com/urlstechie/pre-commit
-    rev: 0.0.0
+    rev: 0.0.1
     hooks:
     -   id: urlchecker-check
-        additional_dependencies: [urlchecker>=0.0.29]
+        additional_dependencies: [urlchecker>=0.0.28]
 ```
 
 Note that the `--files` argument that previously accepted patterns for urlchecker
