@@ -44,7 +44,11 @@ And then you can run:
 $ pre-commit run
 ```
 
-**under development**
+or install to your repository:
+
+```bash
+$ pre-commit install
+```
 
 ## Support
 
